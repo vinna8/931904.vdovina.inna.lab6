@@ -1,0 +1,91 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+
+.wrapper{
+	margin: 0 auto;
+	width: 50%;
+	max-width: 680px;
+	min-width: 680px;
+}
+
+#all_button{
+	display: flex;
+}
+
+.button{
+	padding: 10px;
+	width: 33.5%;
+	background-color: red;
+	color: white;
+	border: 2px solid black;
+	text-align: center;
+	font-size: large;
+	cursor: pointer;
+}
+
+.button:hover{
+	opacity: 0.75;
+}
+
+#all_img{
+	display: flex;
+}
+
+.img_cat{
+	background-color: blue;
+}
+
+.img_cat img{
+	margin-top: 25px;
+	margin-bottom: 100px;
+	padding: 0 20px 0 20px;
+	height: 300px;
+	width: 300px;
+}
+
+.img_dog{
+	background-color: green;
+}
+
+.img_dog img{
+	margin-top: 25px;
+	margin-bottom: 100px;
+	padding: 0 20px 0 20px;
+	height: 300px;
+	width: 300px;
+}
+
+.active_cat{
+	width: 95%;
+}
+
+.active_cat img{
+	width: 480px;
+}
+
+.inactive_dog img{
+	display: none;
+}
+
+.inactive_dog{
+	width: 5%;
+}
+
+.active_dog{
+	width: 95%;
+}
+
+.active_dog img{
+	width: 480px;
+}
+
+.inactive_cat img{
+	display: none;
+}
+
+.inactive_cat{
+	width: 5%;
+}
